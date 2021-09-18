@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERIT SHOPPING MALL</title>
+   <style>
+       
+.btn{
+    height: 650px;
+    width: 350px;
+    background-color: white;
+    text-align: left;
+    margin-left: 450px;
+     
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2); 
+    border-radius: 20px;
+}
+*{box-sizing: border-box;}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text] : focus, input[type=password]: focus {
+    background-color: grey;
+    width: 120px;
+    outline: none;
+    }
+button{
+    background-color: grey;
+    color: black;
+    padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+}
+button.hover{
+    opacity: 1;
+}
+.cancelbtn, .signupbtn{
+    float: left;
+    width: 20px;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;  }
+
+   </style>
+<body> 
+    <section class="bg-cover bg-center bg-fixed" style="background-image: url('/public/images/mall.jpg');"><br><br>
+    <div class="btn">
+        <hr style="height: 45px; background-color: orangered;  width: 350px; margin-bottom: 20px;">
+<p style="margin-left: 20px; margin-top: -55px; color: white; font-size: 25px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center;"><strong> Sign up to explore</p>
+<p style="margin-left: 20px;">Please fill the form to open a FREE Account</p>
+<hr style="margin-left: 20px; width: 300px; >
+ <form class="modal-content" action="/action_page.php">
+    <div class="container">
+<label style="margin-left: 20px;" for="email"><b>Email</b></label><br> 
+      <input  style="margin-left: 20px; width: 300px; border-radius: 10px; "type="text" placeholder="Enter Email" name="email" required><br> 
+      <label style="margin-left: 20px;" for="psw"><b>Password</b></label><br> 
+      <input style="margin-left: 20px; width: 300px; border-radius: 10px;" type="password" placeholder="Enter Password" name="psw" required><br>
+
+      <label style="margin-left: 20px;" for="psw-repeat"><b>Repeat Password</b></label><br> 
+      <input style="margin-left: 20px; width: 300px; border-radius: 10px; " type="password" placeholder="Repeat Password" name="psw-repeat" required><br>      
+      <label>
+        <input style="margin-left: 20px;" type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+      <p style="margin-left: 20px; width: 300px; ">By submitting this form, you agree to comply with our <a href="http://caleboleshii.blogspot.com/">Terms & Conditions</a> as stated.</p>
+      <button style="margin-left: 20px; width: 300px; background-color: green; border-radius: 15px;" type="submit" class="signupbtn">Sign Up</button><br>
+      <button style="margin-left: 20px; width: 300px; background-color: red; border-radius: 15px;" type="submit" class="signupbtn">Cancel</button>
+</div>
+</div>
+</div>
+    </div>
+</form>
+</div><br><br>
+</section>
+</body>
+</html>
